@@ -122,7 +122,7 @@ python3 -m http.server 8000                    # 预览：http://localhost:8000/
 ## 部署自己的一份
 
 1. Fork 这个仓库，或者把全部文件（包括 `.nojekyll`）推到你自己的仓库的 `main` 分支。最大的单个文件 38 MB，在 GitHub 100 MB 的单文件上限以内，不需要 Git LFS。
-2. 仓库 Settings → Pages → Build and deployment，Source 选 Deploy from a branch，分支 `main`，目录 `/ (root)`。免费账号只能给公开仓库开 Pages。
+2. 仓库 Settings → Pages → Build and deployment，Source 选 Deploy from a branch，分支 `main`，目录 `/ (root)`。免费账号只能给公开仓库开 Pages！！
 3. 一两分钟后打开 `https://<用户名>.github.io/<仓库名>/`。页面会自己识别仓库地址，「在 GitHub 查看」按钮直接跳到对应文件；用自定义域名时，在 `index.html` 的 `<meta name="repo">` 里填上仓库地址。
 
 整个站点约 575 MB，其中视频 420 MB。GitHub Pages 的站点上限是 1 GB，每月流量软上限 100 GB；视频只有点播放才会下载。
